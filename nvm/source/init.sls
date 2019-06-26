@@ -10,7 +10,7 @@ nvm_packages:
       - {{ nvm.libssl }}
 
 ## Get NVM
-https://github.com/creationix/nvm.git:
+https://github.com/nvm-sh/nvm.git:
   git.latest:
     - rev: master
     - target: {{ install_path }}
